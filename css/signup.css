@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body { 
+
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body::before{
+    content: "";
+    /* background-attachment: fixed; */
+background-size: 100% 100%;
+background-position: center;
+background-image: url('../image/bg12.jpg');
+position: absolute;
+z-index: -1;
+inset: 0;
+width: 100%;
+height: 130vh;
+}
+
+#container {
+width:1150px;
+margin:auto;
+}
+
+#container a {
+color:#ffffff;
+text-decoration:none;
+}
+
+#container a:hover {
+color:#ffffff;
+}
+
+.sign-in-form {
+width:1150px;
+margin:auto;
+}
+
+.sign-in-form h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+color:#ffffff;
+text-shadow:2px 2px 2px #c3a7db;  
+margin:auto;
+}
+
+.sign-in-form h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+color:#ffffff;
+text-shadow:2px 2px 2px #c3a7db;
+margin-left:120px;
+}
+
+.sign-in-form b {
+color:#ff1a1a;
+font-family: 'Noto Sans JP', sans-serif;
+color: #ffffff;
+margin-left:780px;
+}
+
+.required {
+    color:#ff1a1a;
+}
+
+.sign-in-form strong {
+color:#ffffff;
+font-family: 'Noto Sans JP', sans-serif;
+margin-left:210px;
+}
+
+.sign-in-form  hr{
+    font-family: 'Noto Sans JP', sans-serif;
+color: #ffffff;
+width:410px;
+float:left;
+}
+
+.sign-in-form label {
+    font-family: 'Noto Sans JP', sans-serif;
+color: #ffffff;
+font-size:19px;
+font-weight:bold;
+}
+
+.form-1 {
+    font-family: 'Noto Sans JP', sans-serif;
+color: #ffffff;
+width:300px;
+text-indent:5px;
+height:25px;
+font-size:19px;
+border-radius:5px;
+-o-border-radius:5px;
+}
+
+.form-2 {
+    font-family: 'Noto Sans JP', sans-serif;
+color: #9966cc;
+width:60px;
+text-indent:5px;
+height:25px;
+font-size:19px;
+border-radius:5px;
+-o-border-radius:5px;
+}
+
+.btn-sign-in {
+    font-family: 'Noto Sans JP', sans-serif;
+color:#000000;
+font-size:25px;
+width:400px;
+line-height:30px;
+background-color:#c3a7db;
+border:2px solid #fee9ff;
+border-radius:100px;
+margin-left:210px;
+}
+
+.btn-sign-in:hover {
+color: #000000;
+background-color:#9966cc;
+border:2px solid #fee9ff;
+}
+
+.btn-sign-up {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background: color #9966cc;;
+border:2px solid #c3a7db;
+border-radius:100px;
+-o-border-radius:100px;
+}
+
+.btn-sign-up:hover {
+color:#000000;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:#9966cc;
+border:2px solid #c3a7db;
+border-radius:100px;
+-o-border-radius:100px;
+}
+
+.sign-up-form-1 {
+color:#ff1a1a;
+background-color: rgba(0, 0, 0, 0.9);
+box-shadow: 4px 4px 6px 5px rgba(0, 0, 0, 0.4);
+/* background: linear-gradient(to bottom, #ffff00, #fee9ff, #ffff66); */
+font-family: 'Dancing Script', cursive;
+width:700px;
+background: color #9966cc;;
+margin:auto;
+}
+
+.sign-up-form-1 table {
+color:#ff1a1a;
+font-family: 'Noto Sans JP', sans-serif;
+width:100%;
+background: color #c3a7db;;
+margin:auto;
+}
+
+.sign-up-form-1 input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 3px solid #9966cc;
+    border-radius: 0;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    outline: none;
+}
+
+.sign-up-form-1 legend {
+ color: #ffffff;
+ font-family: 'Noto Sans JP', sans-serif;
+font-size:30px;
+font-weight:bold;
+}
